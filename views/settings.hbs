@@ -9,6 +9,7 @@
             <li role="presentation" class="active"><a href="#website" aria-controls="website" role="tab" data-toggle="tab">{{__ "Website"}}</a></li>
             <li role="presentation"><a href="#article" aria-controls="article" role="tab" data-toggle="tab">{{__ "Article"}}</a></li>
             <li role="presentation"><a href="#display" aria-controls="display" role="tab" data-toggle="tab">{{__ "Display"}}</a></li>
+            <li role="presentation"><a href="#colour" aria-controls="colour" role="tab" data-toggle="tab">{{__ "Colours"}}</a></li>
         </ul>
             <form method="post" action="{{app_context}}/update_settings">
                 <div class="clearfix">
@@ -319,6 +320,87 @@
                         </div>
                     </div>
                     <!-- Dislay settings -->
+
+                    <!-- Colour settings -->
+                    <div role="tabpanel" class="tab-pane" id="colour">
+                        <div class="form-group">
+                            <label class="control-label" for="header_colour">{{__ "Header colour"}}:</label>
+                            <div class="row">
+                            <div class="col-xs-1">
+                                <div class="colour-example" id="header-colour"></div>
+                            </div>
+                            <div class="col-xs-11">
+                                <input type="text" class="form-control" name="header_colour" value="{{config.settings.colours.header}}" required>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="header_font_colour">{{__ "Header font colour"}}:</label>
+                            <div class="row">
+                            <div class="col-xs-1">
+                                <div class="colour-example" id="header-font-colour"></div>
+                            </div>
+                            <div class="col-xs-11">
+                                <input type="text" class="form-control" name="header_font_colour" value="{{config.settings.colours.header_font}}" required>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="link_colour">{{__ "Link colour"}}:</label>
+                            <div class="row">
+                            <div class="col-xs-1">
+                                <div class="colour-example" id="link-colour"></div>
+                            </div>
+                            <div class="col-xs-11">
+                                <input type="text" class="form-control" name="link_colour" value="{{config.settings.colours.link}}" required>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="search_button_colour">{{__ "Search button colour"}}:</label>
+                            <div class="row">
+                            <div class="col-xs-1">
+                                <div class="colour-example" id="search-button-colour"></div>
+                            </div>
+                            <div class="col-xs-11">
+                                <input type="text" class="form-control" name="search_button_colour" value="{{config.settings.colours.search_button}}" required>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="search_font_colour">{{__ "Search button font colour"}}:</label>
+                            <div class="row">
+                            <div class="col-xs-1">
+                                <div class="colour-example" id="search-font-colour"></div>
+                            </div>
+                            <div class="col-xs-11">
+                                <input type="text" class="form-control" name="search_font_colour" value="{{config.settings.colours.search_font}}" required>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="footer_colour">{{__ "Footer colour"}}:</label>
+                            <div class="row">
+                            <div class="col-xs-1">
+                                <div class="colour-example" id="footer-colour"></div>
+                            </div>
+                            <div class="col-xs-11">
+                                <input type="text" class="form-control" name="footer_colour" value="{{config.settings.colours.footer}}" required>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="footer_font_colour">{{__ "Footer font colour"}}:</label>
+                            <div class="row">
+                            <div class="col-xs-1">
+                                <div class="colour-example" id="footer-font-colour"></div>
+                            </div>
+                            <div class="col-xs-11">
+                                <input type="text" class="form-control" name="footer_font_colour" value="{{config.settings.colours.footer_font}}" required>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </form>
         </div>

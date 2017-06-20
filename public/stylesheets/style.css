@@ -241,3 +241,32 @@ html{
     cursor: inherit;
     display: block;
 }
+
+.colour-example{
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    margin: auto;
+    border: 2px solid #dce4ec;
+}
+.colour-example#header-colour{
+    background-color: #2c3e50;
+}
+.colour-example#header-font-colour{
+    background-color: #ffffff;
+}
+.colour-example#link-colour{
+    background-color: #18bc9c;
+}
+.colour-example#search-button-colour{
+    background-color: #18bc9c;
+}
+.colour-example#search-font-colour{
+    background-color: #ffffff;
+}
+.colour-example#footer-colour{
+    background-color: #f5f5f5;
+}
+.colour-example#footer-font-colour{
+    background-color: #b4bcc2;
+}

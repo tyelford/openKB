@@ -173,5 +173,16 @@
 	"Edit reason": "Edit reason",
 	"Previous versions": "Previous versions",
 	"Topic": "Topic",
-	"Suggestion successfully processed": "Suggestion successfully processed"
+	"Suggestion successfully processed": "Suggestion successfully processed",
+	"Google nalytics code": "Google nalytics code",
+	"Parse error on line 326:\n...r=\"header_colour\">{{++ \"Header colour\"}}\n-----------------------^\nExpecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'": "Parse error on line 326:\n...r=\"header_colour\">{{++ \"Header colour\"}}\n-----------------------^\nExpecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'",
+	"Header colour": "Header colour",
+	"Colour": "Colour",
+	"Colours": "Colours",
+	"Header font colour": "Header font colour",
+	"Link colour": "Link colour",
+	"Search button colour": "Search button colour",
+	"Search button font colour": "Search button font colour",
+	"Footer colour": "Footer colour",
+	"Footer font colour": "Footer font colour"
 }
